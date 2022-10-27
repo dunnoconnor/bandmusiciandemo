@@ -1,4 +1,5 @@
 const express = require('express');
+const { Band } = require('./models/index');
 const seed = require('./seed');
 const app = express();
 // set port to 3000
@@ -11,6 +12,11 @@ seed()
 
 app.get('/', (req,res)=>{
     res.send('hello world')
+})
+
+app.get('/bands', async (req,res)=>{
+    const bands = await Band.findAll()
+    res.json(bands)
 })
 
 app.listen(port, () => {
