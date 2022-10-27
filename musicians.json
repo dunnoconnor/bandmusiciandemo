@@ -1,0 +1,16 @@
+{
+    "musiciansData": [
+      {
+        "name": "Method Man",
+        "instrument": "Voice"
+      },
+      {
+        "name": "John Lennon",
+        "instrument": "Guitar"
+      },
+      {
+        "name": "Ringo Star",
+        "instrument": "Drums"
+      }
+    ]
+  }

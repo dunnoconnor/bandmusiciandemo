@@ -1,0 +1,12 @@
+{
+    "bandssData": [
+      {
+        "name": "Wu Tang Clan",
+        "genre": "Hip Hop"
+      },
+      {
+        "name": "The Beatles",
+        "genre": "Pop"
+      }
+    ]
+  }
